@@ -1,0 +1,10 @@
+Profile picture
+Full name
+Job title
+Address
+Overview
+Social links
+education.html
+experience.html
+projects.html
+contactme.html
