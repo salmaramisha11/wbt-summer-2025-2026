@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgba(10, 50, 100, 0.5);
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: yellow
+
+}
+#cname{
+    color: aliceblue;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
