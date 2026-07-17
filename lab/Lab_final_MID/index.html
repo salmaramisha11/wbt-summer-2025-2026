@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Club Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>University Club Membership Registration</h2>
+
+        <form id="myForm">
+
+            <label>First Name</label>
+            <input type="text" id="fname" placeholder="Enter First Name">
+            <small id="fnameError" class="error"></small>
+
+            <label>Last Name</label>
+            <input type="text" id="lname" placeholder="Enter Last Name">
+            <small id="lnameError" class="error"></small>
+
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+            <small id="emailError" class="error"></small>
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter Password">
+            <small id="passwordError" class="error"></small>
+
+            <div class="genderselect">
+                 <label>Gender</label>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+             <small id="genderError" class="error"></small>
+            
+            <div class="clubselect">
+                <label>Interested Clubs</label>
+                <input type="checkbox" name="club" value="acs"> AIUB Computer Club <br>
+                <input type="checkbox" name="club" value="aces"> AIUB Community of Engineering Students <br>
+                <input type="checkbox" name="club" value="apac"> AIUB Performing Arts Club <br>
+                <input type="checkbox" name="club" value="ieee"> IEEE AIUB Student Branch <br>
+                <input type="checkbox" name="club" value="robotics"> AIUB Robotics Crew <br>
+            </div>
+            <small id="clubError" class="error"></small>
+
+            <label>Club Category</label>
+            <select id="category">
+                <option value="">Select a Category</option>
+                <option value="Programming">Programming</option>
+                <option value="Engineering">Engineering</option>
+                <option value="IEEE">IEEE</option>
+                <option value="Robotics">Robotics</option>
+            </select>
+            <small id="categoryError" class="error"></small>
+
+            <div class="reason">
+            <label>Why do you want to join?</label>
+            <textarea id="reason" rows="5" placeholder="Write at least 20 characters"></textarea>
+            <small id="reasonError" class="error"></small>
+             </div>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
